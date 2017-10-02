@@ -18,3 +18,11 @@ stylus转化为css实时输出
 ```
 stylus -w common.styl -o common.css
 ```
+
+# browser
+
+## browser实时刷新
+
+```
+browser-sync start --server "./" --files "*.*"
+```
